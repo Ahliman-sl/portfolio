@@ -121,7 +121,7 @@ function TopText() {
           <FaInstagram className="text-4xl hover:scale-[1.2]  transition duration-300" />
         </a>
         <a
-          href="https://www.instagram.com/ahliman_sl/"
+          href="https://www.linkedin.com/in/ahliman-suleymanli-7a44a0302"
           target="_blank"
           rel="noopener noreferrer"
         >
