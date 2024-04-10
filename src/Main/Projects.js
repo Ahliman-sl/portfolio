@@ -10,6 +10,7 @@ import calculator from "../ProjectImages/calculator.png";
 import weatherapp from "../ProjectImages/weatherapp.png";
 import Bmicalculator from "../ProjectImages/bmicalculator.png";
 import onlinekeyboard from "../ProjectImages/onlinekeyboard.png";
+import lawyerwebsite from "../ProjectImages/lawyerWebsite.png";
 
 // Import Card component for Projects Component
 import {
@@ -34,6 +35,19 @@ export default function Projects() {
       </p>
       <div className="w-full justify-center items-center h-max flex flex-row flex-wrap gap-5 mt-10">
         <BookingCard
+          text="Lawyer Website"
+          description="I've developed a user-friendly and functional design for a lawyer website. The site is customized to meet the needs of clients."
+          imgSRC={lawyerwebsite}
+          program1="HTML5"
+          program2="CSS"
+          program3="JavaScript"
+          program4="SCSS"
+          program5="React"
+          program6="Responsive"
+          program7="Tailwind CSS"
+          urlLink="https://usepopcornsl.netlify.app/"
+        />
+        <BookingCard
           text="Usepopcorn"
           description="A watched movie app that helps you keep track of the films you've watched, offering personalized recommendations and ratings."
           imgSRC={usepopcorn}
@@ -43,6 +57,7 @@ export default function Projects() {
           program4="SCSS"
           program5="React"
           program6="Responsive"
+          program7="Tailwind CSS"
           urlLink="https://usepopcornsl.netlify.app/"
         />
         <BookingCard
@@ -134,6 +149,7 @@ export default function Projects() {
           program4="SCSS"
           program5="React"
           program6="Responsive"
+          program7="Tailwind CSS"
           urlLink="https://rcalcsl.netlify.app/"
         />
         <BookingCard
@@ -146,6 +162,7 @@ export default function Projects() {
           program4="SCSS"
           program5="React"
           program6="Responsive"
+          program7="Tailwind CSS"
           urlLink="https://rcalcsl.netlify.app/"
         />
         <BookingCard
@@ -158,6 +175,7 @@ export default function Projects() {
           program4="SCSS"
           program5="React"
           program6="Responsive"
+          program7="Tailwind CSS"
           urlLink="https://bmisl.netlify.app/"
         />
       </div>
@@ -207,6 +225,19 @@ function BookingCard({
               {program1}
             </span>
           </Tooltip>
+          {[
+            "Usepopcorn",
+            "Rollin Calc",
+            "Weather App",
+            "Bmi calculator",
+            "Lawyer Website",
+          ].includes(text) && (
+            <Tooltip content={program7}>
+              <span className="cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
+                {program7}
+              </span>
+            </Tooltip>
+          )}
           <Tooltip content={program2}>
             <span className="cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
               {program2}
@@ -239,6 +270,7 @@ function BookingCard({
             "Rollin Calc",
             "Weather App",
             "Bmi calculator",
+            "Lawyer Website",
           ].includes(text) && (
             <Tooltip content={program5}>
               <span className="cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
@@ -253,6 +285,7 @@ function BookingCard({
             "Rollin Calc",
             "Eat and Split",
             "InSightSphere",
+            "Lawyer Website",
           ].includes(text) && (
             <Tooltip content={program6}>
               <span className="cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
