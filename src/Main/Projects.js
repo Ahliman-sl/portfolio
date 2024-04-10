@@ -35,19 +35,6 @@ export default function Projects() {
       </p>
       <div className="w-full justify-center items-center h-max flex flex-row flex-wrap gap-5 mt-10">
         <BookingCard
-          text="Lawyer Website"
-          description="I've developed a user-friendly and functional design for a lawyer website. The site is customized to meet the needs of clients."
-          imgSRC={lawyerwebsite}
-          program1="HTML5"
-          program2="CSS"
-          program3="JavaScript"
-          program4="SCSS"
-          program5="React"
-          program6="Responsive"
-          program7="Tailwind CSS"
-          urlLink="https://usepopcornsl.netlify.app/"
-        />
-        <BookingCard
           text="Usepopcorn"
           description="A watched movie app that helps you keep track of the films you've watched, offering personalized recommendations and ratings."
           imgSRC={usepopcorn}
@@ -59,6 +46,19 @@ export default function Projects() {
           program6="Responsive"
           program7="Tailwind CSS"
           urlLink="https://usepopcornsl.netlify.app/"
+        />
+        <BookingCard
+          text="Lawyer Website"
+          description="I've developed a user-friendly and functional design for a lawyer website. The site is customized to meet the needs of clients."
+          imgSRC={lawyerwebsite}
+          program1="HTML5"
+          program2="CSS"
+          program3="JavaScript"
+          program4="SCSS"
+          program5="React"
+          program6="Responsive"
+          program7="Tailwind CSS"
+          urlLink="https://lawyersl.netlify.app/"
         />
         <BookingCard
           text="InSightSphere"
