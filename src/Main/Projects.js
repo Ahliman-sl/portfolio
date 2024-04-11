@@ -11,6 +11,7 @@ import weatherapp from "../ProjectImages/weatherapp.png";
 import Bmicalculator from "../ProjectImages/bmicalculator.png";
 import onlinekeyboard from "../ProjectImages/onlinekeyboard.png";
 import lawyerwebsite from "../ProjectImages/lawyerWebsite.png";
+import loginPage from "../ProjectImages/loginPage.png";
 
 // Import Card component for Projects Component
 import {
@@ -51,6 +52,19 @@ export default function Projects() {
           text="Lawyer Website"
           description="I've developed a user-friendly and functional design for a lawyer website. The site is customized to meet the needs of clients."
           imgSRC={lawyerwebsite}
+          program1="HTML5"
+          program2="CSS"
+          program3="JavaScript"
+          program4="SCSS"
+          program5="React"
+          program6="Responsive"
+          program7="Tailwind CSS"
+          urlLink="https://lawyersl.netlify.app/"
+        />
+        <BookingCard
+          text="TT login"
+          description="A user-friendly and secure login page that unlocks new travel experiences. An ideal platform for managing your travel plans and safeguarding your information."
+          imgSRC={loginPage}
           program1="HTML5"
           program2="CSS"
           program3="JavaScript"
@@ -231,6 +245,7 @@ function BookingCard({
             "Weather App",
             "Bmi calculator",
             "Lawyer Website",
+            "TT login",
           ].includes(text) && (
             <Tooltip content={program7}>
               <span className="cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
@@ -271,6 +286,7 @@ function BookingCard({
             "Weather App",
             "Bmi calculator",
             "Lawyer Website",
+            "TT login",
           ].includes(text) && (
             <Tooltip content={program5}>
               <span className="cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">
@@ -286,6 +302,7 @@ function BookingCard({
             "Eat and Split",
             "InSightSphere",
             "Lawyer Website",
+            "TT login",
           ].includes(text) && (
             <Tooltip content={program6}>
               <span className="cursor-pointer rounded-full border border-gray-900/5 bg-gray-900/5 p-3 text-gray-900 transition-colors hover:border-gray-900/10 hover:bg-gray-900/10 hover:!opacity-100 group-hover:opacity-70">

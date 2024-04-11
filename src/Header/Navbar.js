@@ -15,6 +15,7 @@ export default function Navbar() {
   function scrollToSection(sectionId) {
     const sectionElement = document.getElementById(sectionId);
     sectionElement.scrollIntoView({ behavior: "smooth" });
+    setIsOpen(false);
   }
   return (
     <div className="navbar-wrapper">
