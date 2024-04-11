@@ -72,7 +72,7 @@ export default function Projects() {
           program5="React"
           program6="Responsive"
           program7="Tailwind CSS"
-          urlLink="https://lawyersl.netlify.app/"
+          urlLink="https://loginsl.netlify.app/"
         />
         <BookingCard
           text="InSightSphere"
